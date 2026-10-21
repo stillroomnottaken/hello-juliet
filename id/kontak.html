@@ -4,22 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hubungi Kami | PT Berkat Muri Sejahtera (BMS)</title>
-  <meta name="description" content="Sampaikan kebutuhan atau pasokan Anda ke BMS. Isi formulir singkat ini, lalu pesan Anda langsung siap dikirim lewat WhatsApp.">
-  <meta name="theme-color" content="#43592D">
+  <meta name="description" content="Hubungi BMS lewat WhatsApp atau email. Supplier menawarkan material; buyer mengirim permintaan.">
+  <meta name="theme-color" content="#90C207">
   <link rel="alternate" hreflang="en" href="../contact.html">
   <link rel="alternate" hreflang="id" href="kontak.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="PT Berkat Muri Sejahtera">
   <meta property="og:title" content="Hubungi Kami">
-  <meta property="og:description" content="Sampaikan kebutuhan atau pasokan Anda ke BMS. Isi formulir singkat ini, lalu pesan Anda langsung siap dikirim lewat WhatsApp.">
+  <meta property="og:description" content="Hubungi BMS lewat WhatsApp atau email. Supplier menawarkan material; buyer mengirim permintaan.">
   <meta property="og:locale" content="id_ID">
   <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="../assets/fonts/fraunces-600.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../assets/css/main.css?v=9894e9ce">
+  <link rel="stylesheet" href="../assets/css/main.css?v=4bd1e49d">
   <script>document.documentElement.className='js'</script>
 </head>
 <body>
-  <a class="skip" href="#main">Lewati ke konten utama</a>
+  <a class="skip" href="#main">Langsung ke konten</a>
 
   <header class="hdr">
     <div class="wrap bar">
@@ -51,13 +51,13 @@
       <nav aria-label="Utama">
         <ul class="menu-links">
           <li><a href="index.html">Beranda</a></li>
-          <li><a href="katalog.html">Katalog</a></li>
           <li><a href="tentang.html">Tentang Kami</a></li>
+          <li><a href="katalog.html">Katalog Material</a></li>
           <li><a href="kontak.html" aria-current="page">Hubungi Kami</a></li>
         </ul>
       </nav>
       <div class="menu-foot">
-        <a class="btn btn-gold" href="https://wa.me/6281289090842" target="_blank" rel="noopener">Hubungi kami via WhatsApp</a>
+        <a class="btn btn-gold" href="https://wa.me/6281289090842" target="_blank" rel="noopener">Chat via WhatsApp</a>
       </div>
     </div>
   </header>
@@ -65,91 +65,41 @@
   <main id="main">
 <section class="head head-maize">
   <div class="wrap">
-    <p class="eyebrow">Kontak</p>
-    <h1>Apa yang Anda butuhkan, atau ingin Anda pasok?</h1>
-    <p class="lead">Lengkapi informasi di bawah ini. Kami akan menyiapkan pesan WhatsApp secara otomatis agar Anda dapat mengirimkannya langsung ke tim BMS.</p>
+    <p class="eyebrow">Hubungi Kami</p>
+    <h1>Bagaimana Anda ingin menghubungi BMS?</h1>
+    <p class="lead">Pilih opsi yang sesuai. Kami membalas lewat saluran yang Anda gunakan.</p>
   </div>
 </section>
 
 <section class="sec">
   <div class="wrap form-grid">
-    <form id="inquiry" class="form" novalidate data-wa="6281289090842" data-lang="id">
-      <div class="seg-wrap field" id="role-wrap">
-        <fieldset>
-          <legend>Saya ingin <span class="req" aria-hidden="true">*</span></legend>
-          <div class="seg">
-            <label><input type="radio" name="role" value="need" required><span class="seg-box"><b>PEMBELI</b></span></label>
-            <label class="have"><input type="radio" name="role" value="have"><span class="seg-box"><b>PEMASOK</b></span></label>
-          </div>
-        </fieldset>
-        <p class="err">Silakan pilih apakah Anda menghubungi kami sebagai pembeli atau pemasok.</p>
-      </div>
+    <div class="cols-2 contact-cols">
+      <div class="card">
+        <p class="eyebrow">Saya supplier</p>
+        <h2 class="card-h">Tawarkan material ke BMS</h2>
+        <p>Kirim pesan dan kami akan membalas.</p>
+        <div class="stack">
+          <a class="btn btn-gold" href="https://wa.me/6281289090842?text=Halo%20BMS%2C%20saya%20ingin%20menawarkan%20material%20sebagai%20supplier." target="_blank" rel="noopener">HUBUNGI KAMI</a>
 
-      <div class="field">
-        <label class="l" for="material">Produk <span class="req" aria-hidden="true">*</span></label>
-        <select id="material" name="material" required>
-          <option value="">Pilih jenis produk</option>
-<option value="cocoa">Kakao</option><option value="candlenuts">Kemiri</option><option value="corn-cobs">Tongkol Jagung</option><option value="rubber-seeds">Biji Karet</option><option value="rubber-seed-oil">Minyak Biji Karet</option><option value="cnsl">CNSL</option><option value="Minyak Jelantah">Minyak Jelantah</option><option value="petrochemicals">Petrokimia</option>          <option value="other">Produk lain (belum tercantum)</option>
-        </select>
-        <p class="err">Pilih jenis produk.</p>
-      </div>
-      <div class="field" id="other-wrap" hidden>
-        <label class="l" for="other">Sebutkan nama produk</label>
-        <input id="other" name="other" type="text" maxlength="80">
-      </div>
-
-      <div class="field">
-        <label class="l" for="qty" data-need="Jumlah yang dibutuhkan" data-have="Jumlah yang tersedia">Jumlah <span class="opt">(opsional)</span></label>
-        <div class="row-q">
-          <input id="qty" name="qty" type="number" min="0" step="any" inputmode="decimal" placeholder="20">
-          <select name="unit" aria-label="Satuan">
-            <option value="ton">Ton</option><option value="kg">kg</option><option value="">Belum ditentukan</option>
-          </select>
         </div>
       </div>
-      <div class="field">
-        <label class="l" for="location" data-need="Tujuan pengiriman (kota / pelabuhan)" data-have="Lokasi produk (kota / provinsi)">Lokasi <span class="opt">(opsional)</span></label>
-        <input id="location" name="location" type="text" maxlength="80" autocomplete="off">
-      </div>
-      <div class="field">
-        <label class="l" for="notes">Spesifikasi dan informasi tambahan <span class="opt">(opsional)</span></label>
-        <textarea id="notes" name="notes" rows="3" maxlength="600" placeholder="misalnya ukuran partikel, kemasan, jadwal kirim"></textarea>
-      </div>
+      <div class="card">
+        <p class="eyebrow">Saya buyer</p>
+        <h2 class="card-h">Tanyakan material ke BMS</h2>
+        <p>Sampaikan kebutuhan Anda dan kami akan membalas.</p>
+        <div class="stack">
+          <a class="btn btn-forest" href="https://wa.me/6281289090842?text=Halo%20BMS%2C%20saya%20ingin%20menanyakan%20sebuah%20material." target="_blank" rel="noopener">HUBUNGI KAMI</a>
 
-      <div class="row-2">
-        <div class="field">
-          <label class="l" for="name">Nama Anda <span class="req" aria-hidden="true">*</span></label>
-          <input id="name" name="name" type="text" autocomplete="name" maxlength="80" required>
-          <p class="err">Silakan isi nama Anda.</p>
-        </div>
-        <div class="field">
-          <label class="l" for="company">Perusahaan <span class="opt">(opsional)</span></label>
-          <input id="company" name="company" type="text" autocomplete="organization" maxlength="80">
         </div>
       </div>
-      <div class="field">
-        <label class="l" for="phone">Nomor WhatsApp Anda <span class="req" aria-hidden="true">*</span></label>
-        <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="0812 3456 7890" required>
-        <p class="err">Periksa kembali nomor WhatsApp yang Anda masukkan.</p>
-      </div>
-
-      <button class="btn btn-forest" type="submit">Lanjutkan ke WhatsApp</button>
-      <p class="hint">WhatsApp akan terbuka dengan draf pesan yang sudah terisi. Periksa pesannya, lalu tekan Kirim untuk menghubungi tim kami.</p>
-      <div class="sent" id="sent" role="status" aria-live="polite">
-        <p><b>Pesan Anda siap dilanjutkan di WhatsApp.</b> Tekan Kirim di WhatsApp untuk menyampaikan pesan Anda kepada tim BMS.</p>
-        <p><a class="btn btn-gold btn-sm" id="sent-link" href="https://wa.me/6281289090842" target="_blank" rel="noopener">WhatsApp tidak terbuka? Klik di sini</a></p>
-      </div>
-      <noscript><p class="hint">Untuk menggunakan formulir ini, aktifkan JavaScript di browser Anda. Anda juga dapat menghubungi kami langsung melalui WhatsApp: <a href="https://wa.me/6281289090842">wa.me/6281289090842</a></p></noscript>
-    </form>
+    </div>
 
     <aside class="info" aria-label="Detail perusahaan">
       <h2>PT Berkat Muri Sejahtera</h2>
       <p>Jakarta, Indonesia</p>
       <dl>
-        <div><dt>Email</dt><dd><a href="mailto:ptcontactbms@gmail.com">ptcontactbms@gmail.com</a></dd></div>
-        <div><dt>NIB</dt><dd>0807240054536</dd></div>
+<div><dt>Email</dt><dd><a href="mailto:ptcontactbms@gmail.com">ptcontactbms@gmail.com</a></dd></div>        <div><dt>NIB</dt><dd>0807240054536</dd></div>
       </dl>
-      <a class="btn btn-maize" href="https://wa.me/6281289090842" target="_blank" rel="noopener">Ingin berbicara langsung dengan tim kami? Hubungi kami melalui WhatsApp</a>
     </aside>
   </div>
 </section>
@@ -169,6 +119,6 @@
     <div class="stripe" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
   </footer>
 
-  <script src="../assets/js/main.js?v=4fa704c0" defer></script>
+  <script src="../assets/js/main.js?v=9d977756" defer></script>
 </body>
 </html>
